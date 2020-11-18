@@ -43,7 +43,7 @@ The dependencies are below:
 
 * Application allows user to view their entire employee directory at once with the details like picture,firstname,lastname,age,email and phone number
 
-![Employee Directory](public/assets/directory.PNG)
+![Directory](public/assets/directory.PNG)
 
 * Application also allows user/manager to filter employees by name.
 
@@ -55,15 +55,9 @@ The dependencies are below:
 
 # Deployment
 
-Application is deployed to heroku
+Application is deployed to Github Pages
 
-```bash
-  $ git commit -m "{UPDATED MESSAGE}"
-  $ git push origin master
-  $ git push heroku master
-```
-
-This will deploy to [heroku]() 
+ Here is a link to the deployed applicatiom[Employee Directory]() 
 
 ## Credits
 
