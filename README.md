@@ -57,7 +57,7 @@ The dependencies are below:
 
 Application is deployed to Github Pages
 
- Here is a link to the deployed applicatiom[Employee Directory](https://anjali9293.github.io/Employee-Directory/) 
+ Here is a link to the deployed application [Employee Directory](https://anjali9293.github.io/Employee-Directory/) 
 
 ## Credits
 
