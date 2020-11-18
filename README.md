@@ -1,55 +1,90 @@
-# Unit 19 React Homework: Employee Directory
+# Employee Directory
 
-## Overview
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+## Description
 
-## User Story
+The scope of thid project wad to create an employee directory with React. The application's UI is broken down into components,the state of each component is managed to respond to the user events.
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+## Table of Contents
 
-## Business Context
+* [Technologies](#technologies)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [License](#license)
+* [Questions](#questions)
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+## Technologies
 
-## Acceptance Criteria
+- HTML
+- CSS
+- JavaScript
+- React
+- Axios
+- React-dom
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
+## Installation
 
-The user should be able to:
+Install all the dependencies available in pacakage.json file using `npm install` command.
 
-  * Sort the table by at least one category
+The dependencies are below:
 
-  * Filter the users by at least one property.
+[react](https://www.npmjs.com/package/react)
 
-## Commit Early and Often
+[react-dom](https://www.npmjs.com/package/react-dom)
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+[axios](https://www.npmjs.com/package/axios)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+[react-scripts](https://www.npmjs.com/package/react-scripts)
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+## Usage
 
-Follow these guidelines for committing:
+* Application allows user to view their entire employee directory at once with the details like picture,firstname,lastname,age,email and phone number
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+![Employee Directory](public/assets/directory.PNG)
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+* Application also allows user/manager to filter employees by name.
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+![Name Filter](public/assets/filterbyName.PNG)
 
-* Test your application before you commit to ensure functionality at every step in the development process
+* User can also sort the table by categories like first name,last name, age,email and phone
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+![Sort Table](public/assets/sortTable.PNG)
 
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+# Deployment
 
+Application is deployed to heroku
 
-## Submission on BCS
+```bash
+  $ git commit -m "{UPDATED MESSAGE}"
+  $ git push origin master
+  $ git push heroku master
+```
 
-You are required to submit the following:
+This will deploy to [heroku]() 
 
-* the URL to the deployed application
+## Credits
 
-* the URL to the Github repository
+**[Anjali Pant](https://github.com/Anjali9293)**
 
+## License 
+
+```
+Copyright 2020 <Anjali Pant>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+## Questions
+
+For more questions about this project, click the link below to view my Github repo:
+
+- [GitHub Profile](https://github.com/Anjali9293)
+
+You can also reach me directly at: pantanjali7@gmail.com
